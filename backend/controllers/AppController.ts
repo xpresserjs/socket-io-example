@@ -1,4 +1,4 @@
-import {Controller, Http} from "xpresser/types/http";
+import {Controller} from "xpresser/types/http";
 
 
 const AppController = <Controller.Object>{
@@ -13,9 +13,6 @@ const AppController = <Controller.Object>{
      * @returns {string}
      */
     index: (http): string => http.view('index'),
-
-
-    another(http: Http){}
 };
 
-module.exports = AppController;
+export = AppController;
