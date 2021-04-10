@@ -33,6 +33,11 @@ Socket.io Example using.
 - **start**: Builds file and runs built file.
 - **js-dev**: Uses `nodemon` to run the built file. This is useful when using tsc watch.
 
+
+### Docker
+```sh
+docker run -d -p 3000:3000 xpresserjs/socket.io-example:latest
+```
 #### What next?
 
 Please, Star Project :)
