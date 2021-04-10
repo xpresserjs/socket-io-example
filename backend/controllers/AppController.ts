@@ -13,6 +13,15 @@ const AppController = <Controller.Object>{
      * @returns {string}
      */
     index: (http) => http.view('index'),
+
+
+    example: (http) => {
+        // Get io from $
+        // If using BootSocketIO-2.ts
+        const io = http.$("io");
+
+        return http.view('index')
+    }
 };
 
 export = AppController;

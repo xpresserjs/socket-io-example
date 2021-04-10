@@ -8,11 +8,11 @@
 /**
  * Uncomment to Extend DollarSign Interface.
  */
-/*
 import "xpresser/types";
+import {Server} from "socket.io";
 
 declare module "xpresser/types" {
     interface DollarSign {
-        key: value
+        io: Server
     }
-}*/
+}

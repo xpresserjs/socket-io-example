@@ -16,9 +16,8 @@ const $ = xpresser.init(config, {exposeDollarSign: false})
 // Initialize Typescript
 $.initializeTypescript(__filename)
 
-
+// Boot Socket.io
 $.on.serverBooted(BootSocketIO)
-
 
 // Boot Xpresser
 $.boot();
