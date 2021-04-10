@@ -15,6 +15,11 @@ const AppController = <Controller.Object>{
     index: (http) => http.view('index'),
 
 
+    /**
+     * Example action
+     * Showing use of $.io
+     * @param http
+     */
     example: (http) => {
         // Get io from $
         // If using BootSocketIO-2.ts
