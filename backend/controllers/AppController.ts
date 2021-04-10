@@ -12,7 +12,7 @@ const AppController = <Controller.Object>{
      * Index Method for "/"
      * @returns {string}
      */
-    index: (http): string => http.view('index'),
+    index: (http) => http.view('index'),
 };
 
 export = AppController;
