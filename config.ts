@@ -10,7 +10,7 @@ export = {
     env: 'development',
 
     /**
-     * By default xpresser sets this for you.
+     * By default, xpresser sets this for you.
      */
     server: {
         domain: 'localhost',
